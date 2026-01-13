@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
 </head>
 
 <body class="body-bg">
@@ -50,23 +52,29 @@
                         <nav>
                             <ul id="navigation">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="work.html">Gallery</a></li>
+                                <li><a href="#">I Nostri Progetti</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Cucina</a></li>
+                                        <li><a href="#">Living & Area Relax</a></li>
+                                        <li><a href="#">Zona notte</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="blog.html">Blog</a>
+                                    <!--
                                     <ul class="submenu">
                                         <li><a href="blog.html">Blog</a></li>
                                         <li><a href="blog_details.html">Blog Details</a></li>
                                         <li><a href="elements.html">Elements</a></li>
                                     </ul>
+                                    -->
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.html">Contatti</a></li>
                             </ul>
                         </nav>
                     </div>          
                     <!-- Header-btn -->
                     <div class="header-btns d-none d-lg-block f-right">
-                        <a href="#" class="btn header-btn">Contact Us</a>
+                        <a href="#" class="btn header-btn">Fai un preventivo</a>
                     </div>
                     <!-- Mobile Menu -->
                     <div class="col-12">
@@ -83,30 +91,10 @@
     <div class="slider-area">
         <div class="slider-active dot-style">
             <!-- Single Slider -->
-            <div class="single-slider slider-height hero-overly d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Intorior</span>
-                                <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="single-slider slider-height hero-overly d-flex align-items-center first-foto">
             </div>
             <!-- Single Slider -->
             <div class="single-slider slider-height hero-overly d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Intorior</span>
-                                <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- Video icon -->
@@ -116,13 +104,13 @@
     </div>
     <!-- slider Area End-->
     <!--? our info Start -->
-    <div class="our-info-area pt-170 pb-100 section-bg" data-background="assets/img/gallery/section_bg02.jpg">
+    <div class="our-info-area pt-170 pb-100 section-bg">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-60">
                         <div class="info-caption">
-                            <h4>Clean and Services</h4>
+                            <h4>Consegna e montaggio gratuito</h4>
                             <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
@@ -130,7 +118,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-60">
                         <div class="info-caption">
-                            <h4>Clean and Modern</h4>
+                            <h4>Consulenza personalizzata gratuita</h4>
                             <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
@@ -138,7 +126,15 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-60">
                         <div class="info-caption">
-                            <h4>Clean and Modern</h4>
+                            <h4>Preventivi gratuiti e senza impegno</h4>
+                            <p>For each project we establish relationships with partners who we know will help us. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-info mb-60">
+                        <div class="info-caption">
+                            <h4>Assistenza Post-vendita</h4>
                             <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
@@ -155,14 +151,10 @@
                 <div class="col-lg-8">
                         <!-- Section Tittle -->
                         <div class="section-tittle profession-details">
-                            <span>Our Professional Services</span>
-                            <h2>We will create modern and first class intorior.</h2>
-                            <p>Aorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            <span>La Nostra Expertise</span>
+                            <h2>Progettiamo Spazi che Ispirano.</h2>
+                            <p>FMarredo si distingue per innovazione, qualità e design. Offriamo soluzioni d’arredo studiate per rispondere alle esigenze dell’abitare contemporaneo, combinando funzionalità, estetica e attenzione ai dettagli. Attraverso una selezione accurata di mobili e complementi, accompagniamo i nostri clienti nella creazione di ambienti armoniosi, affidabili e duraturi, dove design,stile e comfort trovano un equilibrio naturale.</p>
                         </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <a href="about.html" class="btn btn3">Discover More About Ous</a>
                 </div>
             </div>
         </div>
@@ -188,9 +180,9 @@
                             <img src="assets/img/gallery/services1.png" alt="">
                             </div>
                             <div class="services-caption">
-                            <h3><a href="services.html">Lighting</a></h3>
-                            <p class="pera1">For each project we establish </p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
+                            <h3><a href="services.html">Progettazione Cucine</a></h3>
+                            <p class="pera1">Creiamo il cuore della casa unendo ergonomia, tecnologia e materiali di pregio.</p>
+                            <p class="pera2">Creiamo il cuore della casa unendo ergonomia, tecnologia e materiali di pregio.</p>
                         </div>
                     </div>
                 </div>
@@ -200,9 +192,9 @@
                             <img src="assets/img/gallery/services2.png" alt="">
                             </div>
                             <div class="services-caption">
-                            <h3><a href="services.html">Interior Design</a></h3>
-                            <p class="pera1">For each project we establish </p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
+                            <h3><a href="services.html">Living & Area Relax</a></h3>
+                            <p class="pera1">Spazi pensati per l'accoglienza e il comfort, dove il design incontra il tuo stile.</p>
+                            <p class="pera2">Spazi pensati per l'accoglienza e il comfort, dove il design incontra il tuo stile.</p>
                         </div>
                     </div>
                 </div>
@@ -212,9 +204,9 @@
                             <img src="assets/img/gallery/services3.png" alt="">
                             </div>
                             <div class="services-caption">
-                            <h3><a href="services.html">Office Decoretion</a></h3>
-                            <p class="pera1">For each project we establish </p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
+                            <h3><a href="services.html">Zona Notte</a></h3>
+                            <p class="pera1">Progettiamo ambienti intimi e rigeneranti, curando ogni dettaglio per il tuo riposo.</p>
+                            <p class="pera2">Progettiamo ambienti intimi e rigeneranti, curando ogni dettaglio per il tuo riposo.</p>
                         </div>
                     </div>
                 </div>
@@ -296,57 +288,7 @@
         </div>
     </div>
     <!-- Gallery Area End -->
-    <!-- Team Start -->
-    <div class="team-area section-padding30">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-70">
-                        <span>Creative derector</span>
-                        <h2>Best Interitor Services</h2>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                <!-- single Tem -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team1.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+
     <!-- Testimonial Start -->
     <div class="testimonial-area testimonial-padding">
         <div class="container">
@@ -418,22 +360,6 @@
         </div>
     </div>
     <!-- Brand Area End -->
-    <!-- Want To work -->
-    <section class="wantToWork-area w-padding2">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-xl-8 col-lg-8 col-md-8">
-                    <div class="wantToWork-caption wantToWork-caption2">
-                        <h2>Are you Searching For a First-Class Consultant?</h2>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3">
-                    <a href="#" class="btn btn-black f-right">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Want To work End -->
     <!-- Blog Area Start -->
     <div class="home-blog-area section-padding30">
         <div class="container">

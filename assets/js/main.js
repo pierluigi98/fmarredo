@@ -53,11 +53,16 @@
         doAnimations($animatingElements);
       });
       BasicSlider.slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
+        pauseOnHover: false,
+        pauseOnFocus: false,
         dots: true,
-        fade: true,
-        arrows: false, 
+        fade: false,
+        infinite: true,
+        arrows: false,
+        speed: 800,
+        cssEase: 'ease-in-out',
         prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
         responsive: [{
