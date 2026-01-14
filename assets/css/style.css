@@ -4154,8 +4154,10 @@ hero-btn {
 
 /* line 21, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
 .gallery-area .single-gallery:hover::before {
+  /* TODO DA RIMUOVERE SOLO NELLA HOME
   opacity: 1;
   visibility: visible;
+  */
 }
 
 /* line 27, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
