@@ -17,3 +17,27 @@
 .slicknav_nav .slicknav_item:hover {
     color: #ffffff !important;
 }
+
+/* Quando lo scroll supera i 400px, la nav mobile diventa nera */
+.header-sticky.sticky-bar .slicknav_menu {
+    background-color: #000000 !important;
+    transition: background-color 0.3s ease;
+}
+
+/* Assicurati che anche l'elenco dei link diventi nero */
+.header-sticky.sticky-bar .slicknav_nav {
+    background-color: #000000 !important;
+}
+
+/* Rimuovi bordi bianchi residui durante lo scroll */
+.header-sticky.sticky-bar .slicknav_nav,
+.header-sticky.sticky-bar .slicknav_item {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Quando la barra diventa sticky, il sottomenu desktop diventa nero */
+.header-sticky.sticky-bar .menu-wrapper .main-menu ul ul.submenu {
+    background: #000000 !important;
+    border: none !important;
+}
