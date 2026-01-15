@@ -749,6 +749,7 @@ hero-btn {
 #scrollUp a i, #back-top a i {
   display: block;
   line-height: 50px;
+  color: white;
 }
 
 /* line 448, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
