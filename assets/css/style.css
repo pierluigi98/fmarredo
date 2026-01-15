@@ -3277,9 +3277,10 @@ hero-btn {
 
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul ul.submenu {
+  margin-top: 1px;
   position: absolute;
   width: 170px;
-  background: rgba(0, 12, 32, 0.8);
+  background: rgba(5, 6, 23, 0.302);
   left: 0;
   top: 90%;
   visibility: hidden;
@@ -3368,7 +3369,7 @@ hero-btn {
 
 /* line 163, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #1d407a !important;
+  background-color: white !important;
 }
 
 /* line 167, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -3479,9 +3480,8 @@ hero-btn {
   background-size: cover;
 }
 
-.first-foto {
+.foto {
   position: relative;
-  background-image: url(../img/hero/about.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

@@ -1,0 +1,19 @@
+/* Sfondo nero per l'elenco dei link */
+.slicknav_nav {
+      background: rgba(5, 6, 23, 0.302) !important;
+      box-shadow: none !important;
+      border: none !important;
+}
+
+/* Colore bianco per i testi e le frecce */
+.slicknav_nav li a, 
+.slicknav_nav .slicknav_arrow {
+    color: #ffffff !important;
+          text-transform: uppercase;
+}
+
+/* Rimuove lo sfondo grigio/chiaro quando passi sopra col dito o clicchi */
+.slicknav_nav a:hover,
+.slicknav_nav .slicknav_item:hover {
+    color: #ffffff !important;
+}
