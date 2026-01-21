@@ -41,3 +41,13 @@
     background: #000000 !important;
     border: none !important;
 }
+
+.info-caption .info-icon {
+  width: 74px;
+  height: 74px;
+
+  object-fit: contain;
+  display: block;
+
+  margin: 0 auto 15px;
+}

@@ -3802,14 +3802,21 @@ hero-btn {
 }
 
 /* line 7, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
-.our-info-area .single-info .info-caption::before {
+/*.our-info-area .single-info .info-caption::before {
 
-  content: "\f0f4"; /* codice dell'icona Font Awesome (es. fa-coffee) */
-  font-family: "Font Awesome 5 Free"; /* o la versione che stai usando */
-  font-weight: 900; /* necessario per alcune icone solid */
-  font-size: 50px;
-  color: grey;
-}
+  content: "";
+  display: block;
+
+  width: 64px;
+  height: 64px;
+
+  background-image: url("/assets/img/icons/contract.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  margin-bottom: 15px; /* spazio tra icona e titolo
+}*/
 
 
 /* line 18, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -3823,6 +3830,8 @@ hero-btn {
   z-index: 2;
   margin-bottom: 15px;
   font-family: "Barlow", sans-serif;
+    text-align: center;
+
 }
 
 /* line 29, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -3833,6 +3842,7 @@ hero-btn {
   display: block;
   font-weight: 300;
   font-style: italic;
+  text-align: center;
 
   line-height: 1.4;
 }
