@@ -86,9 +86,17 @@
 {
     float: right;
 }
-.slick-slide img
-{
+.slick-slide img {
     display: block;
+    /* Dimensione massima del box visivo */
+    width: 150px;
+    height: 150px;
+
+    /* Magia per non deformare */
+    object-fit: contain;
+
+    /* Per evitare sfocature su ridimensionamenti strani */
+    image-rendering: -webkit-optimize-contrast; /* Opzionale, migliora nitidezza su Chrome */
 }
 .slick-slide.slick-loading img
 {

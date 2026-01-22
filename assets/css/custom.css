@@ -51,3 +51,7 @@
 
   margin: 0 auto 15px;
 }
+
+.single-brand-black {
+    filter: brightness(0);  /* Trasforma tutto (anche i bianchi) in nero */
+}

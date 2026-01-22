@@ -112,6 +112,10 @@
 
  // Brand Active
     $('.brand-active').slick({
+      autoplaySpeed: 2000,
+      pauseOnHover: false,
+      pauseOnFocus: false,
+      fade: false,
       dots: false,
       infinite: true,
       autoplay: true,
