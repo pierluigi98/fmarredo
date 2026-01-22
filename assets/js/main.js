@@ -112,13 +112,13 @@
 
  // Brand Active
     $('.brand-active').slick({
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       pauseOnHover: false,
       pauseOnFocus: false,
       fade: false,
       dots: false,
       infinite: true,
-      autoplay: true,
+      autoplay: false,
       speed: 400,
       arrows: false,
       slidesToShow: 5,
@@ -162,6 +162,26 @@
         // instead of a settings object
       ]
     });
+    // Selezioniamo l'elemento dello slider
+    const brandSlider = document.querySelector('.brand-active');
+
+    // Creiamo l'osservatore
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Se lo slider è visibile, avvia l'autoplay
+                $('.brand-active').slick('slickPlay');
+            } else {
+                // Opzionale: ferma l'autoplay quando esce dalla visuale per risparmiare risorse
+                $('.brand-active').slick('slickPause');
+            }
+        });
+    }, {
+        threshold: 0.2 // Lo slider deve essere visibile almeno al 20% prima di partire
+    });
+
+    // Avviamo l'osservazione
+    observer.observe(brandSlider);
 
 
 /* 4. Testimonial Active*/
