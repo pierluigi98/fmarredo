@@ -1,12 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Interior Design HTML-5 Template </title>
+    <title>FMarredo</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -17,27 +17,109 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
+    <style>
+        /* --- Override Generali per la pagina Privacy --- */
+
+        /* Imposta sfondo bianco e testo nero, sovrascrivendo le impostazioni del tema */
+        body,
+        body.body-bg {
+            background-color: #ffffff !important;
+            background-image: none !important;
+            color: #1a1a1a !important; /* Nero morbido per migliore lettura */
+            font-family: 'Rubik', sans-serif; /* O il font usato nel tuo sito */
+            line-height: 1.6;
+        }
+
+        /* --- Layout del Contenitore Principale --- */
+        main {
+            /* Padding superiore abbondante per scendere SOTTO il menu fisso */
+            padding-top: 160px;
+            padding-bottom: 80px;
+
+            /* Centra il contenuto e limita la larghezza per eleganza e leggibilità */
+            max-width: 900px;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        /* --- Tipografia --- */
+
+        /* Titolo Principale (H1) */
+        main h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eaeaea; /* Linea separatrice elegante */
+        }
+
+        /* Sottotitoli (H2) */
+        main h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #000000;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        /* Paragrafi */
+        main p {
+            color: #333333;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        /* --- Liste Puntate --- */
+        main ul {
+            margin-bottom: 20px;
+            padding-left: 20px; /* Indenta la lista */
+        }
+
+        main ul li {
+            list-style-type: disc; /* Pallino classico */
+            margin-bottom: 8px;
+            color: #333333;
+        }
+
+        /* --- Link e Email --- */
+        main strong {
+            font-weight: 600;
+            color: #000000;
+        }
+
+        /* Se ci sono link nel testo */
+        main a {
+            color: #000;
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+
+        main a:hover {
+            color: #555; /* Grigio scuro al passaggio del mouse */
+        }
+
+        .header-area .main-header {
+            background-color: black;
+        }
+
+        .slicknav_nav{
+            background-color: black !important;
+        }
+
+        .header-area .menu-wrapper .main-menu ul ul.submenu {
+            background-color: black;
+        }
+    </style>
 </head>
 
-<body>
-<!-- Preloader Start -->
-<div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-                <img src="assets/img/logo/loder.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Preloader Start -->
+<body class="body-bg">
 <header>
     <!-- Header Start -->
     <div class="header-area header-transparent">
@@ -69,13 +151,13 @@
                                     </ul>
                                     -->
                                 </li>
-                                <li><a href="contact.html">Contatti</a></li>
+                                <li><a href="#">Contatti</a></li>
                             </ul>
                         </nav>
                     </div>
                     <!-- Header-btn -->
                     <div class="header-btns d-none d-lg-block f-right">
-                        <a href="#" class="btn header-btn">Fai un preventivo</a>
+                        <a href="contact.html" class="btn header-btn">Fai un preventivo</a>
                     </div>
                     <!-- Mobile Menu -->
                     <div class="col-12">
@@ -88,54 +170,88 @@
     <!-- Header End -->
 </header>
 <main>
-    <!--? Hero Start -->
-    <div class="slider-area2">
-        <div class="slider-height2 hero-overly d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="hero-cap hero-cap2 text-center pt-80">
-                            <h2>Fai un preventivo</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Hero End -->
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <iframe data-tally-src="https://tally.so/embed/gD9Mrl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="758" frameborder="0" marginheight="0" marginwidth="0" title="Fai un preventivo"></iframe>
-                    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>                </div>
-                <div class="col-lg-3 offset-lg-1 d-none d-lg-block">
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-home"></i></span>
-                        <div class="media-body">
-                            <h3>Via Fucilari 97</h3>
-                            <p>Nocera Inferiore, Salerno.</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                        <div class="media-body">
-                            <h3>+39 338 439 5399</h3>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-email"></i></span>
-                        <div class="media-body">
-                            <h3>fmarredo@libero.it</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ================ contact section end ================= -->
+    <h1>Informativa sulla Privacy</h1>
+
+    <p>
+        Ai sensi dell’articolo 13 del D.lgs n.196/2003 e del Regolamento UE 2016/679 (GDPR),
+        i dati personali forniti tramite il modulo di richiesta preventivo presente su questo sito
+        verranno trattati nel rispetto dei principi di correttezza, liceità, trasparenza e tutela della riservatezza.
+    </p>
+
+    <h2>Dati personali raccolti</h2>
+    <p>I dati personali che raccogliamo tramite il modulo di richiesta preventivo includono:</p>
+    <ul>
+        <li>Nome e cognome;</li>
+        <li>Indirizzo email;</li>
+        <li>Numero di telefono;</li>
+        <li>Messaggio;</li>
+        <li>Piantina dell’abitazione o altri file allegati forniti volontariamente dall’utente.</li>
+    </ul>
+
+    <h2>Finalità del trattamento</h2>
+    <p>I dati raccolti vengono utilizzati esclusivamente per:</p>
+    <ul>
+        <li>Fornire un preventivo personalizzato;</li>
+        <li>Ricontattare l’utente in merito alla richiesta inviata;</li>
+        <li>Gestire eventuali richieste di assistenza o chiarimenti;</li>
+        <li>Migliorare la qualità dei servizi offerti.</li>
+    </ul>
+
+    <h2>Modalità di trattamento</h2>
+    <p>
+        I dati inviati tramite il modulo di richiesta preventivo vengono raccolti e gestiti tramite
+        <strong>Tally Form</strong>.
+        I dati non vengono utilizzati per finalità pubblicitarie, di marketing o per l’invio di comunicazioni non
+        richieste.
+    </p>
+
+    <p>
+        Il sito non utilizza cookie né sistemi di tracciamento.
+    </p>
+
+    <h2>Comunicazione dei dati a terzi</h2>
+    <p>
+        I dati personali non saranno comunicati a terzi senza il consenso dell’utente,
+        salvo nei casi previsti dalla legge.
+        L’utente sarà informato nel caso in cui si rendesse necessaria la comunicazione dei dati a soggetti terzi.
+    </p>
+
+    <p>
+        È responsabilità dell’utente adottare adeguate misure di sicurezza per proteggere
+        i propri dispositivi e le proprie credenziali da accessi non autorizzati.
+    </p>
+
+    <h2>Diritti dell’utente</h2>
+    <p>
+        L’utente ha il diritto di ottenere:
+    </p>
+    <ul>
+        <li>l’origine dei dati personali;</li>
+        <li>le finalità e le modalità del trattamento;</li>
+        <li>gli estremi identificativi del titolare del trattamento;</li>
+        <li>l’aggiornamento, la rettifica o l’integrazione dei dati;</li>
+        <li>la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge;
+        </li>
+        <li>l’attestazione che le operazioni sopra indicate siano state portate a conoscenza di coloro ai quali i dati
+            sono stati comunicati.
+        </li>
+    </ul>
+
+    <p>
+        L’utente ha inoltre il diritto di opporsi, in tutto o in parte, al trattamento dei propri dati personali
+        per motivi legittimi.
+    </p>
+
+    <h2>Contatti</h2>
+    <p>
+        Per qualsiasi informazione riguardante la presente informativa sulla privacy
+        o per esercitare i propri diritti, l’utente può contattare il titolare del trattamento
+        all’indirizzo email:
+        <br>
+        <strong>fmarredo@libero.it</strong>
+    </p>
 </main>
+
 <footer>
     <!--? Footer Start-->
     <div class="footer-area footer-bg">
@@ -215,13 +331,8 @@
     </div>
     <!-- Footer End-->
 </footer>
-<!-- Scroll Up -->
-<div id="back-top">
-    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-</div>
 
 <!-- JS here -->
-
 <!-- All JS Custom Plugins Link Here here -->
 <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
@@ -237,11 +348,11 @@
 <!-- One Page, Animated-HeadLin -->
 <script src="./assets/js/wow.min.js"></script>
 <script src="./assets/js/animated.headline.js"></script>
+<script src="./assets/js/jquery.magnific-popup.js"></script>
 
 <!-- Nice-select, sticky -->
 <script src="./assets/js/jquery.nice-select.min.js"></script>
 <script src="./assets/js/jquery.sticky.js"></script>
-<script src="./assets/js/jquery.magnific-popup.js"></script>
 
 <!-- contact js -->
 <script src="./assets/js/contact.js"></script>
@@ -253,7 +364,5 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
-
 </body>
-
 </html>
