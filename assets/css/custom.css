@@ -55,3 +55,39 @@
 .single-brand-black {
     filter: brightness(0);  /* Trasforma tutto (anche i bianchi) in nero */
 }
+
+.blog-img {
+    width: 100%;
+    max-width: 750px;
+    max-height: 375px;
+
+    aspect-ratio: 2 / 1; /* mantiene proporzione 750x375 */
+    object-fit: cover;  /* crop intelligente senza deformare */
+    object-position: center;
+
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 8px; /* opzionale, look premium */
+}
+
+.blog-thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+}
+
+.blog-thumb2 {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    display: block;
+}
+
+.blog-img-principal {
+    width: 750px;
+    height: 375px;
+    object-fit: cover;
+    display: block;
+}

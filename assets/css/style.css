@@ -4998,15 +4998,6 @@ hero-btn {
   transition: .4s;
 }
 
-/* line 129, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
-.blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #1d407a 0%, #1d407a 99%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-decoration: none;
-  transition: .4s;
-}
-
 /* line 139, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .single-blog {
   overflow: hidden;
@@ -5533,15 +5524,13 @@ hero-btn {
 
 /* line 664, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .blog_details h2 {
-  font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 8px;
 }
 
 @media (min-width: 768px) {
   /* line 664, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
   .blog_details h2 {
-    font-size: 24px;
     margin-bottom: 15px;
   }
 }
@@ -5935,7 +5924,7 @@ hero-btn {
 /* line 1195, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .single-post-area .blog_details p {
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 /* line 1205, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
