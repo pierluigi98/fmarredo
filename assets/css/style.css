@@ -4171,13 +4171,20 @@ hero-btn {
   */
 }
 
+.single-gallery {
+  position: relative;
+}
+
 /* line 27, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
 .gallery-area .single-gallery .gallery-img {
   position: relative;
   height: 565px;
   background-size: cover;
   background-repeat: no-repeat;
+  display: block;
+  z-index: 2;
 }
+
 
 /* line 34, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box {

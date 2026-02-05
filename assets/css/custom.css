@@ -91,3 +91,11 @@
     object-fit: cover;
     display: block;
 }
+
+.glightbox-container {
+    touch-action: pan-y;
+}
+
+.glightbox-slide {
+    touch-action: pan-y;
+}
