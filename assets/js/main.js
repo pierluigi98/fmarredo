@@ -38,6 +38,13 @@
         closedSymbol: '+',
         openedSymbol:'-'
       });
+
+      // Chiudi il menu mobile quando si clicca un link interno
+      $('.slicknav_nav a[href^="#"]').on('click', function() {
+        if ($('.slicknav_nav').is(':visible')) {
+          $('.slicknav_btn').click();
+        }
+      });
     };
 
 /* 4. MainSlider-1 */
