@@ -40,7 +40,7 @@
       });
 
       // Chiudi il menu mobile quando si clicca un link interno
-      $('.slicknav_nav a[href^="#"]').on('click', function() {
+      $('.slicknav_nav a[href^="#footer"]').on('click', function() {
         if ($('.slicknav_nav').is(':visible')) {
           $('.slicknav_btn').click();
         }
